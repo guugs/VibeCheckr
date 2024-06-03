@@ -8,7 +8,7 @@ A Python script that shows sentiment analysis and most commmon terms associated 
 **Pandas, Matplotlib, Wordcloud Libraries**: For displaying data in a pie chart and word cloud. <br />
 
 
-#Examples: <br />
+## Examples: <br />
 
 
 ![marner](https://github.com/guugs/VibeCheckr/assets/122190867/7ea69f65-41e6-47fd-8ae5-4dc74d17e26b)
