@@ -39,7 +39,7 @@ def display_results(posts, df, subreddit, keyword):
     axs[1].axis('off')
     axs[1].set_title(f'Word Cloud for "{keyword}" in r/{subreddit}')
 
-    plt.tight_layout(pad=0.4) #padding for overlap
+    plt.tight_layout(pad=5) #padding for overlap
     plt.show()
 
     sorted_df = df.sort_values(by='sentiment', ascending=False)
