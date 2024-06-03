@@ -3,11 +3,13 @@ from textblob import TextBlob
 import pandas as pd
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
+from config import REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_USER_AGENT
 
 
-reddit = praw.Reddit(client_id='CYHLSUHNMc_9rpXz8E9lNQ',
-                     client_secret='4JepsnzbpppouK0E0uM4a6GPOMlTSg',
-                     user_agent='console:Sentiment:1.0')
+
+reddit = praw.Reddit(client_id=REDDIT_CLIENT_ID,
+                     client_secret=REDDIT_CLIENT_SECRET,
+                     user_agent=REDDIT_USER_AGENT)
 
 def fetch_posts(subreddit, keyword):
     posts = []
